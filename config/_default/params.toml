@@ -27,7 +27,7 @@ readingTime = true
 Toc = true
 
 # set title for the table of contents
-TocTitle = "Contenidos"
+TocTitle = ""
 
 # date format
 dateFormat = "2006-01-02"
