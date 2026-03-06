@@ -1,0 +1,19 @@
+baseURL = "https://nicolas-ricc.github.io/MyxomatosisRSS/"
+publishDir = "docs"
+defaultContentLanguage = "es"
+enableEmoji = true
+theme = "terminal"
+summaryLength = 30
+
+[pagination]
+  pagerSize = 5
+
+[taxonomies]
+  tag = "tags"
+
+[server]
+  disableBrowserError = false
+  [[server.headers]]
+    for = "/**"
+    [server.headers.values]
+      Cache-Control = "no-cache"

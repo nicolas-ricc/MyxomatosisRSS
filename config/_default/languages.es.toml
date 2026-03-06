@@ -1,0 +1,23 @@
+languageCode = "es"
+languageName = "Español"
+weight = 1
+title = "Myxomatosis"
+
+[params]
+  subtitle = "Un blog personal"
+  owner = ""
+  keywords = ""
+  copyright = ""
+  menuMore = "Ver más"
+  readMore = "Leer más"
+  readOtherPosts = "Leer otros posts"
+  newerPosts = "Posts más nuevos"
+  olderPosts = "Posts más viejos"
+  missingContentMessage = "Página no encontrada..."
+  missingBackButtonLabel = "Volver al inicio"
+  minuteReadingTime = "min de lectura"
+  words = "palabras"
+
+  [params.logo]
+    logoText = "Myxomatosis"
+    logoHomeLink = "/"

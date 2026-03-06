@@ -1,0 +1,33 @@
+# dir name of your main content (default is `content/posts`).
+contentTypeName = "temas"
+
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 2
+
+# show selector to switch language
+showLanguageSelector = true
+
+# set theme to full screen width
+fullWidthTheme = false
+
+# center theme with default width
+centerTheme = true
+
+# if your resource directory contains an image called `cover.(jpg|png|webp)`,
+# then the file will be used as a cover automatically.
+autoCover = true
+
+# set post to show the last updated
+showLastUpdated = false
+
+# whether to show a page's estimated reading time
+readingTime = true
+
+# whether to show a table of contents
+Toc = true
+
+# set title for the table of contents
+TocTitle = "Contenidos"
+
+# date format
+dateFormat = "2006-01-02"
