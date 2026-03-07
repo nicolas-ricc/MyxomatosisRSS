@@ -1,7 +1,7 @@
 languageCode = "es"
 languageName = "Español"
 weight = 1
-title = "Myxomatosis"
+title = "Humano"
 
 [params]
   subtitle = "Un blog personal"
@@ -19,5 +19,4 @@ title = "Myxomatosis"
   words = "palabras"
 
   [params.logo]
-    logoText = "Myxomatosis"
-    logoHomeLink = "/"
+    logoText = "Humano"

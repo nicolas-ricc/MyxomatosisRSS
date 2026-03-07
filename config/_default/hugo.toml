@@ -1,8 +1,12 @@
-baseURL = "https://nicolas-ricc.github.io/MyxomatosisRSS/"
+[frontmatter]
+  date = ["date", "publishDate"]
+  lastmod = ["lastmod"]
+  publishDate = ["publishDate", "date"]
+
+baseURL = "https://nicolas-ricc.github.io/"
 publishDir = "docs"
 defaultContentLanguage = "es"
 enableEmoji = true
-theme = "terminal"
 summaryLength = 30
 
 [pagination]

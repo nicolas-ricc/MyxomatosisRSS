@@ -1,0 +1,97 @@
+/* Responsive Breakpoints
+   Desktop-first: base styles are desktop, breakpoints scale down.
+   Loaded after terminal.css — overrides theme defaults. */
+
+/* Large desktop — tighter reading width */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+/* Small laptop / large tablet landscape */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 760px;
+    padding: 30px;
+  }
+}
+
+/* Tablet portrait */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: calc(var(--font-size) * 1.35);
+  }
+
+  h2 {
+    font-size: calc(var(--font-size) * 1.25);
+  }
+
+  blockquote {
+    padding: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol,
+  img, figure, video,
+  table {
+    margin: 20px 0;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  :root {
+    --font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: calc(var(--font-size) * 1.25);
+  }
+
+  h2 {
+    font-size: calc(var(--font-size) * 1.15);
+  }
+
+  h3 {
+    font-size: calc(var(--font-size) * 1.05);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol,
+  img, figure, video,
+  table {
+    margin: 15px 0;
+  }
+
+  ul, ol {
+    margin-left: 2ch;
+  }
+
+  blockquote {
+    padding: 15px;
+  }
+
+  pre {
+    padding: 15px 8px;
+  }
+
+  img {
+    border-width: 4px;
+    padding: 4px;
+  }
+
+  iframe[src*="youtube.com"] {
+    border-width: 4px !important;
+    padding: 4px !important;
+  }
+}

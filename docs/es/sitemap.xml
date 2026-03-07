@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://nicolas-ricc.github.io/MyxomatosisRSS/temas/a-palabras-necias/</loc><lastmod>2025-02-05T00:00:00+00:00</lastmod></url><url><loc>https://nicolas-ricc.github.io/MyxomatosisRSS/temas/</loc><lastmod>2025-02-05T00:00:00+00:00</lastmod></url><url><loc>https://nicolas-ricc.github.io/MyxomatosisRSS/</loc><lastmod>2025-02-05T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://nicolas-ricc.github.io/MyxomatosisRSS/en/"/><xhtml:link rel="alternate" hreflang="es" href="https://nicolas-ricc.github.io/MyxomatosisRSS/"/></url><url><loc>https://nicolas-ricc.github.io/MyxomatosisRSS/tags/</loc><xhtml:link rel="alternate" hreflang="en" href="https://nicolas-ricc.github.io/MyxomatosisRSS/en/tags/"/><xhtml:link rel="alternate" hreflang="es" href="https://nicolas-ricc.github.io/MyxomatosisRSS/tags/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:36765/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:36765/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:36765/es/"
+                />
+  </url><url>
+    <loc>//localhost:36765/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:36765/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:36765/es/tags/"
+                />
+  </url>
+</urlset>

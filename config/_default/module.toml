@@ -1,3 +1,6 @@
+[[imports]]
+  path = "github.com/panr/hugo-theme-terminal/v4"
+
 [[mounts]]
   source = "content"
   target = "content"
