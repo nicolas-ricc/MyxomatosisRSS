@@ -21,11 +21,10 @@ html {
 
 body {
   font-family:
-    "Fira Code",
     "JetBrains Mono",
     Monaco,
     Consolas,
-     "Ubuntu Mono",
+    "Ubuntu Mono",
     monospace;
   font-size: var(--font-size);
   font-weight: 400;
@@ -248,11 +247,10 @@ ol li {
 code,
 kbd {
   font-family:
-    "Fira Code",
     "JetBrains Mono",
     Monaco,
     Consolas,
-    Ubuntu Mono,
+    "Ubuntu Mono",
     monospace !important;
   font-feature-settings: normal;
   background: color-mix(in srgb, var(--foreground) 5%, transparent);

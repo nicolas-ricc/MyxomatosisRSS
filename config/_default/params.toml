@@ -31,3 +31,6 @@ TocTitle = ""
 
 # date format
 dateFormat = "2006-01-02"
+
+# Substack publication name (e.g., "humano" for humano.substack.com)
+substackUrl = "humano"

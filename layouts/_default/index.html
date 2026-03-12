@@ -46,14 +46,8 @@
         <div class="post-content">
           {{ if .Params.showFullContent }}
             {{ .Content }}
-          {{ else if .Description }}
-            <p>{{ .Description | markdownify }}</p>
           {{ else }}
-            {{ with index (findRE `(?s)<p>.*?</p>` .Content) 0 }}
-              {{ . | safeHTML }}
-            {{ else }}
-              {{ $.Summary }}
-            {{ end }}
+            {{ .Summary }}
           {{ end }}
         </div>
 
